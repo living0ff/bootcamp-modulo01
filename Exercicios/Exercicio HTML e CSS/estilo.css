@@ -1,0 +1,30 @@
+#menu {
+    background-color: lightseagreen;
+    padding: 20px;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+a {
+    color: blue;
+}
+
+a:link {
+    text-decoration-line: none;
+}
+
+.corrupti {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.dolor-sit{
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+#lorem-center{
+    text-align: center;
+}
