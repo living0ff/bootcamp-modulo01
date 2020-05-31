@@ -1,0 +1,14 @@
+/*ARQUIVO CSS EXTERNO PARA A AULA DO BOOTCAMP*/
+
+p {
+    color: red;
+    font-size: 20px;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color: lightgray;
+}
