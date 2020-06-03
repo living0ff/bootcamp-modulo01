@@ -2,14 +2,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-html,
 body {
+    background-image: url("imagens/background-image.jpg");
     height: 100%;
     margin: 0;
-}
-
-body {
-    background-image: url(imagens/background-image.jpg)
 }
 
 .logo {
@@ -20,6 +16,7 @@ body {
 .menu {
     background-color: #17d199;
     margin-top: 40px;
+    width: 100%;
 }
 
 .menu li {
@@ -51,13 +48,13 @@ hr {
 
 .imagensnoticia {
     width: 200px;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
 .imagensnoticia:hover {
-    zoom: 2;
-    transform: scale(1.4);
+    zoom: 1;
+    transform: scale(1.2);
 }
 
 .botaoleiamais {
@@ -78,20 +75,64 @@ hr {
     margin-top: 100px;
 }
 
-.logolateral:hover{
+.logolateral:hover {
     transform: scale(1.1);
 }
 
 table {
     border-style: solid;
-    border-radius: 15px;
-    border-color: rgb(20, 190, 154);
+    border-color: #111111
 }
 
 table td {
     text-align: center;
+    background-color: #cccccc;
+}
+
+table th {
+    background-color: #aaaaaa;
 }
 
 #entre-em-contato {
     padding-left: 10px;
+}
+
+#salariototal {
+    text-align: right;
+    font-weight: bolder;
+}
+
+.stSalario {
+    font-weight: bolder;
+}
+
+.elementosformulario {
+    padding-left: 25px;
+}
+
+form {
+    padding-left: 15px;
+}
+
+form textarea {
+    min-height: 250px;
+    max-height: 500px;
+    width: 500px;
+}
+
+.dicas_contato {
+    text-align: right;
+    border-style: solid;
+    border-color: #ffffff;
+    color: #111111;
+    background-color: #53dfb5;
+}
+
+.btn {
+    float: right;
+}
+
+.max-width{
+    max-width: 1200px;
+    margin: 0 auto;
 }

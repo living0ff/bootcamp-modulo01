@@ -11,9 +11,11 @@
 </head>
 
 <body>
+    <div class="max-width">
     <div class="logo grid-25">
         <img class="logo" src="imagens/logo.png" alt="" title="UNSE - Soluções Online">
     </div>
+</div>
     <br><br>
     <div class="menu">
         <ul>
@@ -22,70 +24,79 @@
             <li><a href="contato.html">Contato</li></a>
         </ul>
     </div>
-    <div class="logolateral grid-25">
+    <div class="max-height">
+    <div class="logolateral grid-25 container">
         <figure>
-        <img src="imagens/logo.png" alt="" title="UNSE - Soluções Online">
-    </figure>
+            <img src="imagens/logo.png" alt="" title="UNSE - Soluções Online">
+        </figure>
     </div>
-    <div class="quemsomosinfo grid-50">
+    <div class="grid-50">
         <h3>Quem somos?</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sequi ad repellat quia saepe non optio fuga ullam sit rerum! Sequi perferendis cupiditate ea consequatur eligendi magnam porro quis consectetur?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sequi ad repellat quia saepe non optio fuga ullam sit rerum! Sequi perferendis cupiditate ea consequatur eligendi magnam porro quis consectetur?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sequi ad repellat quia saepe non optio fuga ullam sit rerum! Sequi perferendis cupiditate ea consequatur eligendi magnam porro quis consectetur?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sequi ad repellat quia saepe non optio fuga ullam sit rerum! Sequi perferendis cupiditate ea consequatur eligendi magnam porro quis consectetur?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sequi ad repellat quia saepe non optio fuga ullam sit rerum! Sequi perferendis cupiditate ea consequatur eligendi magnam porro quis consectetur?
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sequi ad repellat quia saepe non optio
+            fuga ullam sit rerum! Sequi perferendis cupiditate ea consequatur eligendi magnam porro quis consectetur?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sequi ad repellat quia saepe non optio
+            fuga ullam sit rerum! Sequi perferendis cupiditate ea consequatur eligendi magnam porro quis consectetur?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sequi ad repellat quia saepe non optio
+            fuga ullam sit rerum! Sequi perferendis cupiditate ea consequatur eligendi magnam porro quis consectetur?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sequi ad repellat quia saepe non optio
+            fuga ullam sit rerum! Sequi perferendis cupiditate ea consequatur eligendi magnam porro quis consectetur?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sequi ad repellat quia saepe non optio
+            fuga ullam sit rerum! Sequi perferendis cupiditate ea consequatur eligendi magnam porro quis consectetur?
         </p>
         <hr>
+        <h4>Quadro de Funcionários</h4>
         <table>
             <thead>
                 <tr>
-                    <th>Setor</th>
-                <th>Funcionarios</th>
-                <th>Quantidade</th>
-            </tr>
+                    <th>Nome</th>
+                    <th colspan="2" rowspan="3">Email</th>
+                    <th colspan="2" rowspan="3">Data/Contratação</th>
+                    <th colspan="2" rowspan="3">Matrícula</th>
+                    <th colspan="2" rowspan="3">Salário</th>
+                </tr>
+                </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Administrativo</td>
-                    <td>250</td>
-                    <td>250</td>
-                    </tr>
-                    <tr>
-                        <td>Administrativo</td>
-                        <td>250</td>
-                        <td>250</td>
-                        <tr>
-                            <td>Administrativo</td>
-                            <td>250</td>
-                            <td>250</td>
-                            <tr>
-                                <td>Administrativo</td>
-                                <td>250</td>
-                                <td>250</td>
-                                <tr>
-                                    <td>Administrativo</td>
-                                    <td>250</td>
-                                    <td>250</td>
-                                    <tr>
-                                        <td>Administrativo</td>
-                                        <td>250</td>
-                                        <td>250</td>
-                                        <tr>
-                                            <td>Administrativo</td>
-                                            <td>250</td>
-                                            <td>250</td>
-                                            <tr>
-                                                <td>Administrativo</td>
-                                                <td>250</td>
-                                                <td>250</td>
-                                                </tr>
+                    <td>Elias</td>
+                    <td colspan="2">eliasdocarmo@unse.com</td>
+                    <td>13/01/2016</td>
+                    <td colspan="3">234234235235</td>
+                    <td colspan="2" rowspan="2">1500</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Isabel</td>
+                    <td colspan="2">isabeloliveira@unse.com</td>
+                    <td>13/01/2016</td>
+                    <td colspan="3">795410358741</td>
+                </tr>
+                <tr>
+                    <td colspan="2">isabelnascimento@unse.com</td>
+                    <td>25/07/2016</td>
+                    <td colspan="3">698752013654</td>
+                    <td colspan="2">2000</td>
+                </tr>
+                <tr>
+                    <td>Veronica</td>
+                    <td colspan="2">veronicademelo@unse.com</td>
+                    <td>20/05/2017</td>
+                    <td colspan="3">594230154789</td>
+                    <td colspan="2">5000</td>
+                </tr>
             </tbody>
+            <tfoot>
+                <tr>
+                    <td class="stSalario">Salário Total</td>
+                    <td colspan="8" id="salariototal">8.500</td>
+                </tr>
+            </tfoot>
 
         </table>
         <div>
             <h5 id="direitosreservados">UNSE - Soluções Online - Todos os direitos reservados</h5>
         </div>
     </div>
+</div>
 </body>
 
 </html>
