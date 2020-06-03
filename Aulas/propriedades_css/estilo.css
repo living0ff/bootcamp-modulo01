@@ -1,0 +1,33 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url(background-image.jpg)
+}
+
+.menu {
+    list-style-type: none;
+    background-color: slategray;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li:hover {
+    background-color: #111111;
+    padding: 15px;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.regdev {
+    display: none !important;
+}

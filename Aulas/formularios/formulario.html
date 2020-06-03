@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--
+        FORM -> tag pai na qual seus filhos podem ser dos mais diversos, de acordo com a necessidade do cliente.
+        Alguns atributos dessa tag são:
+        action -> para onde as informações serão enviadas
+        method -> get ou post, define como as informações serão trafegadas pela rede.
+        name -> nome do formulário
+    -->
+    <!--
+    <form action="registra.php" method="post" >
+        <label for="txtNome">Nome</label>
+        <input type="text" id="txtNome" placeholder="Marcos de Oliveira">
+
+        <hr>
+
+        <label for="txtEmail">E-mail</label>
+        <input type="email" id="txtEmail" placeholder="marcosdeoliveira@hotmail.com" required>
+
+        <hr>
+
+        <label for="txtSenha">Senha</label>
+        <input type="password" id="txtSenha" placeholder="********">
+
+        <hr>
+
+        <label for="txtHidden">Hidden</label>
+        <input type="hidden" id="txtHidden">
+
+        <hr>
+
+        <label for="txtData">Data</label>
+        <input type="date" id="txtData">
+
+        <hr>
+
+        <label for="txtColor">Cores</label>
+        <input type="color" id="txtColor">
+
+        <hr>
+
+        <label for="txtNumeros">Numeros</label>
+        <input type="number" id="txtNumeros" min="2" max="10" required>
+        <input type="submit">
+    </form>
+-->
+    <!--
+        label -> Nos permite criar rótulos e quando clicado no rótulo/texto, o input associado é selecionado
+                \\O label nos serve pra quando se clica em determinado local próximo ao input, o input seja selecionado.
+                \\o label não é uma tag orfã, então podemos englobar um input ou definir um atributo que faça referencia a um ID.
+
+                Ex: <label><input type="text">Texto Qualquer</label>
+                    <label for="txtQualquer"><input type="text" id="txtQualquer">Texto Qualquer
+
+        disabled -> Desativado
+                    \\O campo input fica desativado
+        readonly -> Apenas leitura
+                    \\O campo input fica apenas em forma de leitura, não podendo alterar valores
+        min e max -> Quantidade mínima e máxima
+        minlength e maxlength -> Quantidade minima e maxima de caracteres.
+        checkbox -> fornece uma caixa para selecionarmos um ou mais itens, assim podemos selecionar frutas, produtos, quantidades, entre uma infinidade de informações.
+                \\checkbox é um atributo da propriedade type, pertencente a tag <input>
+                \\Ex: <input type="checkbox">
+                Usamos o atributo name com o mesmo nome para agrupar e inserimos o valor no atributo value.
+                Podemos usar o atributo checked para iniciar com um input já marcado.
+                Ex: <input type="checkbox" name="ckFruta" value="maca" checked>Maçã
+                    <input type="checkbox" name="ckFruta" value="uva" checked>Uva
+
+        radio -> Assim como no checkbox, precisamos agrupar os inputs através de valores idênticos no atributo name, modificando apenas no value de acordo com a necessidade.
+                \\A diferença desse controle, é que permite selecionar apenas um entre as opções disponíveis.
+                \\Podemos usar o atributo checked, pra deixar uma das opções marcadas como padrão.
+                Ex: <input type="radio" name="sexo" value="h"> Homem
+                    <input type="radio" name="sexo" value="m"> Mulher    
+
+        textarea -> É diferente do <input type="text">, o intuito é fornecer uma caixa para entrada de textos maiores, como escrita de posts de um site ou comentários.
+                    Diferente do input, esse elemento não é uma tag orfã.
+                    \\Usamos os atributos cols e rows para limitar a largura e o tamanho, mas podemos controlar isso via CSS.
+                        Ex: <textarea name="txtComentario" id="" class="" cols="20" rows="10" placeholder="Insira seu comentário: "></textarea>
+        
+        select -> fornece uma caixa para seleção de elementos, muito utilizado para seleção de cidade ou estado.
+                        \\Seus filhos são os elementos <option>, que contém o atributo value, que armazena o valor quando um campo é selecionado.
+                        \\Podemos utilizar o atributo selected para selecionar uma opção como padrão, assim, ela vai estar selecionada quando a página for carregada.
+                        \optgroup -> agrupar elementos
+                            Ex: <label for="slEstado">Estado : </label>
+                            <select name="slEstado" id="slEstado">
+                                <optgroup label="Sudeste">
+                                <option value="sp">São Paulo</option>
+                                <option value="rj">Rio de Janeiro</option>
+                                <option value="mg">Minas Gerais</option>
+                                <option value="es">Espírito Santo</option>
+                                </optgroup>
+
+            input -> button
+                    \\ é um botão normal, sem estado ou função nenhuma, ele pode ser usado pelo Javascript para adicionar funcionalidades.
+                    
+                    submmit
+                    \\ esse botão tem por objetivo, enviar os dados do formulário para o destino especificado na tag form, usando o metódo action especificado, ou seja, envia o formulário.
+
+                    reset
+                    \\ reseta e apaga as informações do formulário
+
+                    Visualmente são idênticos, mas possuem funcionalidades diferentes. Podemos mudar seu estilo utilizando CSS.
+                    Podemos usar também a tag button e informar os valores desejados no atributo type.
+            
+                    Ex: <input type="submmit" value="Cadastrar">
+                        <input type="reset" value="Resetar">
+                        <input type="button" value="Nada">
+    -->
+
+    <form action="registra.php" method="post">
+        <label for="txtNome">Nome:
+            <input class="input" type="text" name="txtNome" id="txtNome" value="Digite seu nome: ">
+            <hr>
+            <label for="txtEmail">Email:</label>
+            <input class="input" type="email" name="txtEmail" id="txtEmail">
+            <hr>
+            <label for="txtSenha">Senha:
+                <input class="input" type="password" name="txtSenha" id="txtSenha">
+                <hr>
+                <label for="txtData">Data de Nascimento:
+                    <input class="input" type="date" name="txtData" id="txtData">
+                    <hr>
+                    Sexo:
+                    <label for="h"><input type="radio" name="txtSexo" id="h"> Homem
+                        <label for="m"><input type="radio" name="txtSexo" id="m"> Mulher
+                            <hr>
+                            <label for="slEstado"> Estado:
+                                <select name="slEstado" id="slEstado">
+                                    <optgroup label="Sudeste" selected>
+                                        <option value="sp">São Paulo</option>
+                                        <option value="rj">Rio de Janeiro</option>
+                                        <option value="mg">Minas Gerais</option>
+                                        <option value="es">Espírito Santo</option>
+                                    </optgroup>
+                                </select>
+                                <hr>
+                                <label for="txtNumeroTel">Número de Telefone:
+                                    <input class="input" type="number" name="txtNumeroTel" id="txtNumeroTel"></label>
+                                <hr>
+                                <input class="btn" type="submit" value="Enviar">
+                                <input class="btn" type="reset" value="Resetar">
+
+
+    </form>
+
+
+</body>
+
+</html>

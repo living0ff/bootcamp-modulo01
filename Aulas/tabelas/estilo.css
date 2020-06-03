@@ -1,0 +1,18 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+table th {
+    background: #eeeeee;
+    padding: 20px;
+}
+
+tbody td {
+    background: ghostwhite;
+    padding: 20px;
+}
+
+.tf-tabela {
+    text-align: center;
+}

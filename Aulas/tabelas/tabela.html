@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Tabelas</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+     <!--TABELAS SIMPLES
+        TABLE -> as tabelas são definidas com a tag table 
+        BORDER -> declara que a tabela terá borda de espessura fina(1), se não declarar nenhum valor, não haverá bordas
+        TR - table row > linhas da tabela
+        TD - table data > colunas da tabela
+        TH - table head > cabeçalho da tabela
+
+    <table border="1">
+        <tr>
+            <td>Nome:</td>
+            <td>Idade:</td>
+        </tr>
+        <tr>
+            <td>Cristiano</td>
+            <td>36</td>
+        </tr>
+    </table>
+    -->
+
+<!--
+
+            \\SEMANTICA
+            thead -> são os titulos da tabela, geralmente marcados com tags TH(table head). São praticamente estáticos.
+            tbody -> corpo(conteúdo) da tabela, os dados em si. Não são estáticos e são alterados constantemente conforme adicionada informações a tabela.
+            tfoot -> rodapé da tabela, são quase estáticos e geralmente apresentam informações complementares da tabela, como média de usuarios, total de usuários, entre outros, conforme a tabela a seguir.
+
+            \\TAGS COLSPAN E ROWSPAN
+            rowspan -> junta duas linhas ou mais
+            colspan -> junta duas colunas ou mais
+
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Nome:</th>
+                <th>Idade:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Usuário 1</th>
+                <td>Valéria</td>
+                <td>43 anos</td>
+            </tr>
+            <tr>
+                <th>Usuário 2</th>
+                <td rowspan="2">Fernando</td>
+                <td>23 anos</td>
+            </tr>
+            <tr>
+                <th>Usuário 3</th>
+                <td>29 anos</td>
+            </tr>
+            <tr>
+                <th>Usuário 4</th>
+                <td>Lorena</td>
+                <td>25 anos</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Usuários</th>
+                <td colspan="2" class="tf-tabela">4</td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+
+</body>
+
+</html>
