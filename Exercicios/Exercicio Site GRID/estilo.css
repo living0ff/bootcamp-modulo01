@@ -1,0 +1,97 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url(imagens/background-image.jpg)
+}
+
+.logo {
+    padding-top: 5px;
+    width: 20%;
+}
+
+.menu {
+    background-color: #17d199;
+    margin-top: 40px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li:hover {
+    background-color: #3784db;
+    padding: 15px;
+    transition: all .25s;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+
+.estiloimagens {
+    border-style: solid;
+    border-color: #135020;
+    background-color: #cccccc;
+    padding: 0;
+}
+
+hr {
+    color: white;
+}
+
+.imagensnoticia {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+}
+
+.imagensnoticia:hover {
+    zoom: 2;
+    transform: scale(1.4);
+}
+
+.botaoleiamais {
+    border-radius: 15px;
+    border-color: rgb(20, 190, 154);
+}
+
+.botaoleiamais:hover {
+    color: rgb(57, 57, 245);
+}
+
+#direitosreservados {
+    color: #111111;
+    text-align: center;
+}
+
+.logolateral {
+    margin-top: 100px;
+}
+
+.logolateral:hover{
+    transform: scale(1.1);
+}
+
+table {
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgb(20, 190, 154);
+}
+
+table td {
+    text-align: center;
+}
+
+#entre-em-contato {
+    padding-left: 10px;
+}
