@@ -12,10 +12,10 @@
 
 <body>
     <div class="max-width">
-    <div class="logo grid-25">
-        <img class="logo" src="imagens/logo.png" alt="" title="UNSE - Soluções Online">
+        <div class="logo grid-25">
+            <img class="logo" src="imagens/logo.png" alt="" title="UNSE - Soluções Online">
+        </div>
     </div>
-</div>
     <br><br>
     <div class="menu">
         <ul>
@@ -24,97 +24,103 @@
             <li><a href="contato.html">Contato</li></a>
         </ul>
     </div>
-</div>
+    </div>
     <div class="max-width">
-    <h3 id="entre-em-contato">Contato</h3>
-    <form method="post" action="contato.php">
-        <div class=" formulario-contato grid-50">
-            <label>Nome:
-                <input class="input" type="text" name="txtNome" id="txtNome" placeholder="Digite seu nome: "></label>
-            <label><span class="elementosformulario">Email:
-                    <input class="input" type="email" name="txtEmail" id="txtEmail"
-                        placeholder="marquinhos@unse.com"></label>
-            <hr>
-            <label>Senha:
-                <input class="input" type="password" name="txtSenha" id="txtSenha" placeholder="**********"></label>
-            <span class="elementosformulario">Sexo: </span>
-            <label><input type="radio" name="txtSexo" id="h">Homem</label>
-            <label><input type="radio" name="txtSexo" id="m">Mulher</label>
-            <hr>
-            <label>Data de Nascimento:
-                <input class="input" type="date" name="txtData" id="txtData"></label>
-            <hr>
-            <label> Estado:
-                <select name="slEstado" id="slEstado">
-                    <optgroup label="Norte">
-                        <option value="AC">Acre</option>
-                        <option value="AP">Amapá</option>
-                        <option value="AM">Amazonas</option>
-                        <option value="PA">Pará</option>
-                        <option value="RO">Rondônia</option>
-                        <option value="RR">Roraima</option>
-                        <option value="TO">Tocantins</option>
-                    </optgroup>
-                    <optgroup label="Nordeste">
-                        <option value="AL">Alagoas</option>
-                        <option value="BA">Bahia</option>
-                        <option value="CE">Ceará</option>
-                        <option value="MA">Maranhão</option>
-                        <option value="PB">Paraíba</option>
-                        <option value="PE">Pernambuco</option>
-                        <option value="PI">Piauí</option>
-                        <option value="RN">Rio Grande do Norte</option>
-                        <option value="SE">Sergipe</option>
-                    </optgroup>
-                    <optgroup label="Centro-Oeste">
-                        <option value="DF">Distrito Federal</option>
-                        <option value="GO">Goiás</option>
-                        <option value="MT">Mato Grosso</option>
-                        <option value="MS">Mato Grosso do Sul</option>
-                    </optgroup>
-                    <optgroup label="Sudeste">
-                        <option value="ES">Espírito Santo</option>
-                        <option value="MG">Minas Gerais</option>
-                        <option value="RJ">Rio de Janeiro</option>
-                        <option value="SP">São Paulo</option>
-                    </optgroup>
-                    <optgroup label="Sul">
-                        <option value="PR">Paraná</option>
-                        <option value="RS">Rio Grande do Sul</option>
-                        <option value="SC">Santa Catarina</option>
-                    </optgroup>
-                </select></label>
-            <hr>
-            <label>Fale um pouco mais sobre você:
-                <textarea></textarea></label>
-            <hr>
-            <input class="btn" type="reset" value="Resetar">
-            <input class="btn" type="submit" value="Enviar">
+        <h3 id="entre-em-contato">Contato</h3>
+        <form method="post" action="contato.php">
+            <div class=" formulario-contato grid-50">
+                <label>Nome:
+                    <input class="input" type="text" name="txtNome" id="txtNome"
+                        placeholder="Digite seu nome: "></label>
+                <label><span class="elementosformulario">Email:
+                        <input class="input" type="email" name="txtEmail" id="txtEmail"
+                            placeholder="marquinhos@unse.com"></label>
+                <hr>
+                <label>Senha:
+                    <input class="input" type="password" name="txtSenha" id="txtSenha" placeholder="**********"></label>
+                <span class="elementosformulario">Sexo: </span>
+                <label><input type="radio" name="txtSexo" id="h">Homem</label>
+                <label><input type="radio" name="txtSexo" id="m">Mulher</label>
+                <hr>
+                <label>Data de Nascimento:
+                    <input class="input" type="date" name="txtData" id="txtData"></label>
+                <hr>
+                <label> Estado:
+                    <select name="slEstado" id="slEstado">
+                        <optgroup label="Norte">
+                            <option value="AC">Acre</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="PA">Pará</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="TO">Tocantins</option>
+                        </optgroup>
+                        <optgroup label="Nordeste">
+                            <option value="AL">Alagoas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="SE">Sergipe</option>
+                        </optgroup>
+                        <optgroup label="Centro-Oeste">
+                            <option value="DF">Distrito Federal</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                        </optgroup>
+                        <optgroup label="Sudeste">
+                            <option value="ES">Espírito Santo</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="SP">São Paulo</option>
+                        </optgroup>
+                        <optgroup label="Sul">
+                            <option value="PR">Paraná</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="SC">Santa Catarina</option>
+                        </optgroup>
+                    </select></label>
+                <hr>
+                <label>Fale um pouco mais sobre você:
+                    <textarea></textarea></label>
+                <hr>
+                <input class="btn" type="reset" value="Resetar">
+                <input class="btn" type="submit" value="Enviar">
 
-            <br><br><br><br><br><br><br>
-            <div>
-                <h5 id="direitosreservados">UNSE - Soluções Online - Todos os direitos reservados
-                </h5>
+                <br><br><br><br><br><br><br>
+                <div>
+                    <h5 id="direitosreservados">UNSE - Soluções Online - Todos os direitos reservados
+                    </h5>
+                </div>
+
             </div>
-
-        </div>
-        <div class="dicas_contato grid-50">
-            <h2>Dicas</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsum quis accusantium cumque eos
-                dolorum doloribus! Incidunt, omnis dolore, similique sint iusto magni eos enim animi id nihil blanditiis
-                fugiat.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati quos illo voluptatum enim officia
-                odit culpa odio optio deserunt, officiis id quisquam debitis iusto repudiandae cum possimus aut aliquid
-                aliquam.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit ex rem eum maxime, excepturi veniam
-                distinctio amet quidem ad est aperiam perferendis modi sequi recusandae animi quaerat omnis minima hic.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia incidunt necessitatibus, eos deserunt
-                a ipsum repellendus culpa. Voluptate quo impedit autem numquam voluptates veritatis nihil, accusamus
-                officia reiciendis animi soluta?
-            </p>
-        </div>
-    </form>
-</div>
+            <div class="dicas_contato grid-50">
+                <h2>Dicas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsum quis accusantium cumque eos
+                    dolorum doloribus! Incidunt, omnis dolore, similique sint iusto magni eos enim animi id nihil
+                    blanditiis
+                    fugiat.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati quos illo voluptatum enim
+                    officia
+                    odit culpa odio optio deserunt, officiis id quisquam debitis iusto repudiandae cum possimus aut
+                    aliquid
+                    aliquam.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit ex rem eum maxime, excepturi veniam
+                    distinctio amet quidem ad est aperiam perferendis modi sequi recusandae animi quaerat omnis minima
+                    hic.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia incidunt necessitatibus, eos
+                    deserunt
+                    a ipsum repellendus culpa. Voluptate quo impedit autem numquam voluptates veritatis nihil, accusamus
+                    officia reiciendis animi soluta?
+                </p>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
