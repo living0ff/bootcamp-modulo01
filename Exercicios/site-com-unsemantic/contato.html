@@ -17,87 +17,79 @@
         </div>
     </div>
     <br><br>
-    <div class="menu">
-        <ul>
-            <li><a href="index.html">Home</li></a>
-            <li><a href="quem_somos.html">Quem somos</li></a>
-            <li><a href="contato.html">Contato</li></a>
-        </ul>
+    <div class="max-width">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</li></a>
+                <li><a href="quem_somos.html">Quem somos</li></a>
+                <li><a href="contato.html">Contato</li></a>
+            </ul>
+        </div>
     </div>
     </div>
     <div class="max-width">
         <h3 id="entre-em-contato">Contato</h3>
-        <form method="post" action="contato.php">
-            <div class=" formulario-contato grid-50">
-                <label>Nome:
-                    <input class="input" type="text" name="txtNome" id="txtNome"
-                        placeholder="Digite seu nome: "></label>
-                <label><span class="elementosformulario">Email:
-                        <input class="input" type="email" name="txtEmail" id="txtEmail"
-                            placeholder="marquinhos@unse.com"></label>
-                <hr>
-                <label>Senha:
-                    <input class="input" type="password" name="txtSenha" id="txtSenha" placeholder="**********"></label>
-                <span class="elementosformulario">Sexo: </span>
-                <label><input type="radio" name="txtSexo" id="h">Homem</label>
-                <label><input type="radio" name="txtSexo" id="m">Mulher</label>
-                <hr>
-                <label>Data de Nascimento:
-                    <input class="input" type="date" name="txtData" id="txtData"></label>
-                <hr>
-                <label> Estado:
-                    <select name="slEstado" id="slEstado">
-                        <optgroup label="Norte">
-                            <option value="AC">Acre</option>
-                            <option value="AP">Amapá</option>
-                            <option value="AM">Amazonas</option>
-                            <option value="PA">Pará</option>
-                            <option value="RO">Rondônia</option>
-                            <option value="RR">Roraima</option>
-                            <option value="TO">Tocantins</option>
-                        </optgroup>
-                        <optgroup label="Nordeste">
-                            <option value="AL">Alagoas</option>
-                            <option value="BA">Bahia</option>
-                            <option value="CE">Ceará</option>
-                            <option value="MA">Maranhão</option>
-                            <option value="PB">Paraíba</option>
-                            <option value="PE">Pernambuco</option>
-                            <option value="PI">Piauí</option>
-                            <option value="RN">Rio Grande do Norte</option>
-                            <option value="SE">Sergipe</option>
-                        </optgroup>
-                        <optgroup label="Centro-Oeste">
-                            <option value="DF">Distrito Federal</option>
-                            <option value="GO">Goiás</option>
-                            <option value="MT">Mato Grosso</option>
-                            <option value="MS">Mato Grosso do Sul</option>
-                        </optgroup>
-                        <optgroup label="Sudeste">
-                            <option value="ES">Espírito Santo</option>
-                            <option value="MG">Minas Gerais</option>
-                            <option value="RJ">Rio de Janeiro</option>
-                            <option value="SP">São Paulo</option>
-                        </optgroup>
-                        <optgroup label="Sul">
-                            <option value="PR">Paraná</option>
-                            <option value="RS">Rio Grande do Sul</option>
-                            <option value="SC">Santa Catarina</option>
-                        </optgroup>
-                    </select></label>
-                <hr>
-                <label>Fale um pouco mais sobre você:
-                    <textarea></textarea></label>
-                <hr>
-                <input class="btn" type="reset" value="Resetar">
-                <input class="btn" type="submit" value="Enviar">
-
-                <br><br><br><br><br><br><br>
-                <div>
-                    <h5 id="direitosreservados">UNSE - Soluções Online - Todos os direitos reservados
-                    </h5>
+        <form>
+            <div class="grid-50">
+                <div class="grid-50">
+                    <label>Nome: <input type="text" id="txtNome" name="txtNome"
+                            placeholder="Digite aqui seu nome: "></label><br>
+                    <label>E-mail: <input type="email" id="txtEmail" name="txtEmail"
+                            placeholder="marquinhos@unse.com"></label><br>
+                    <label>Senha: <input type="password" id="txtSenha" name="txtSenha" placeholder="*********"></label><br><br>
+                    <label>
+                        Estado
+                        <select name="slEstado" id="slEstado">
+                            <optgroup label="Norte">
+                                <option value="AC">Acre</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="PA">Pará</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="TO">Tocantins</option>
+                            </optgroup>
+                            <optgroup label="Nordeste">
+                                <option value="AL">Alagoas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="SE">Sergipe</option>
+                            </optgroup>
+                            <optgroup label="Centro-Oeste">
+                                <option value="DF">Distrito Federal</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                            </optgroup>
+                            <optgroup label="Sudeste">
+                                <option value="ES">Espírito Santo</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="SP">São Paulo</option>
+                            </optgroup>
+                            <optgroup label="Sul">
+                                <option value="PR">Paraná</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="SC">Santa Catarina</option>
+                            </optgroup>
+                        </select>
+                    </label><br><br>
+                    <label>Fale um pouco mais sobre você
+                        <textarea></textarea>
+                    </label>
                 </div>
-
+                <div class="grid-50">
+                    <label>Data de Nascimento:
+                        <input type="date" name="txtData" id="txtData"></label><br>
+                    Sexo:
+                    <label><input type="radio" name="txtSexo" id="h"> Homem </label>
+                    <label><input type="radio" name="txtSexo" id="m"> Mulher</label>
+                </div>
             </div>
             <div class="dicas_contato grid-50">
                 <h2>Dicas</h2>
@@ -121,6 +113,9 @@
             </div>
         </form>
     </div>
+    <div class="grid-100" id="direitosreservados">
+        <p><strong>Todos os direitos reservados.</strong></p>
+    </div>  
 </body>
 
 </html>
