@@ -1,3 +1,5 @@
+/*FORMATAÇÃO GERAL*/
+
 * {
     font-family: 'Open Sans', sans-serif;
 }
@@ -7,6 +9,8 @@ body {
     height: 100%;
     margin: 0;
 }
+
+/*CABEÇALHO*/
 
 .logo {
     padding-top: 5px;
@@ -33,6 +37,13 @@ body {
     color: #ffffff;
     text-decoration: none;
     padding: 20px 10px;
+}
+
+/*LAYOUT*/
+
+.max-width {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .estiloimagens {
@@ -79,6 +90,17 @@ hr {
     transform: scale(1.1);
 }
 
+#salariototal {
+    text-align: right;
+    font-weight: bolder;
+}
+
+.stSalario {
+    font-weight: bolder;
+}
+
+/*TABELA*/
+
 table {
     border-style: solid;
     border-color: #111111
@@ -93,17 +115,19 @@ table th {
     background-color: #aaaaaa;
 }
 
+
+/*AREA DE CONTATO*/
+
+.dicas_contato {
+    text-align: right;
+    border-style: solid;
+    border-color: #ffffff;
+    color: #111111;
+    background-color: #53dfb5;
+}
+
 #entre-em-contato {
     padding-left: 10px;
-}
-
-#salariototal {
-    text-align: right;
-    font-weight: bolder;
-}
-
-.stSalario {
-    font-weight: bolder;
 }
 
 .elementosformulario {
@@ -120,19 +144,6 @@ form textarea {
     width: 500px;
 }
 
-.dicas_contato {
-    text-align: right;
-    border-style: solid;
-    border-color: #ffffff;
-    color: #111111;
-    background-color: #53dfb5;
-}
-
 .btn {
     float: right;
-}
-
-.max-width {
-    max-width: 1200px;
-    margin: 0 auto;
 }
