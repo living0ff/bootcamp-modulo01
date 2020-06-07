@@ -148,6 +148,14 @@ form textarea {
     float: right;
 }
 
+form label {
+    display: block;
+}
+
 form input {
     margin-top: 10px;
+}
+
+.inline {
+    display: inline-block;
 }
