@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" name="viewport" content="
+        width=device-width,
+        initial-scale=1,
+        minimum-scale=1,
+        maximum-scale=1">
+    <title>Contato</title>
+    <link rel=" stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="unsemantic-grid-responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="max-width">
+            <div class="mobile-grid-100">
+                <div class="menu mobile-grid-100">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html"><img class="logo mobile-grid-70" src="imagens/logo.png" alt=""></a>
+                            </li>
+                            <li><a href="#">Quem somos</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="index.html">Cadastro</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="max-width">
+            <form action="registro.php" method="POST" id="formularioCadastro">
+                <div class="grid-100 mobile-grid 100">
+                    <div class="background">
+                        <div class="contato">
+                            <ul>
+                                <li><img class="imagemproximo" src="imagens/proximo.png"></li>
+                                <li>
+                                    <h3>Cadastro</h3>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-grid-100">
+                    <div class="background2 mobile-grid-100">
+                        <div class="grid-50 mobile-grid-100">
+                            <label for="txtNome">Nome:
+                                <input class="mobile-grid-100" type="text" id="txtNome">
+                            </label>
+                            <label for="txtSenha">Senha:
+                                <input class="mobile-grid-100" type="password" id="txtSenha">
+                            </label>
+                            <label>
+                                Sexo:
+                                <select class="mobile-grid-100" id="txtSexo">
+                                    <option value="">
+
+                                    </option>
+                                    <option value="m">
+                                        Masculino
+                                    </option>
+                                    <option value="f">
+                                        Feminino
+                                    </option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="grid-50 mobile-grid-100">
+                            <label for="txtEmail">Email:
+                                <input class="mobile-grid-100" type="email" id="txtEmail">
+                            </label>
+                            <label for="txtConfirmarSenha">Confirmar Senha:
+                                <input class="mobile-grid-100" type="password" id="txtConfirmarSenha">
+                            </label>
+                            <label for="txtDataNascimento">Data de Nascimento:
+                                <input class="mobile-grid-100" type="text" id="txtDataNascimento">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-grid-100">
+                    <div class="background3 grid-100 mobile-grid-100">
+                        <label>Sobre você:
+                            <textarea class="mobile-grid-100" id="txtInfo" rows="6"></textarea></label>
+                        <div class="grid-70 mobile-grid-100" id="listaerros">
+                            <ul>
+                                <li>Por favor, preencha corretamente todos os campos.</li>
+                            </ul>
+                        </div>
+                        <div class="grid-25 mobile-grid-50">
+                            <input class="botao mobile-grid-100" type="submit" value="Cadastrar">
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

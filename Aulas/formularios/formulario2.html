@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formúlario com Javascript</title>
+    <link rel="stylesheet" href="estilo_formulario.css">
+    <link rel="stylesheet" href="unsemantic-grid-responsive.css">
+</head>
+
+<body>
+    <form>
+        <div class="grid-50">
+            <div class="grid-50">
+                <label>Nome:
+                    <input type="text" id="txtNome" name="txtNome" placeholder="Digite aqui seu nome: ">
+                </label><br>
+                <label>Senha:
+                    <input type="password" id="txtSenha" name="txtSenha"
+                        placeholder="Digite aqui sua senha: "></label><br>
+                <label>E-mail: 
+                    <input type="email" id="txtEmail" name="txtEmail" placeholder="marquinhos@unse.com">
+                </label>
+            </div>
+            <div class="grid-50">
+                <label>Sexo:
+                    <input class="tipoSexo" type="radio" name="txtSexo" id="txtSexo" > Homem</label>
+                    <label><input class="tipoSexo" type="radio" name="txtSexo" id="m"> Mulher</label>
+                <br><br>
+                <label>Data de nascimento: 
+                    <input type="date" id="txtData" name="txtData">
+                </label>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>

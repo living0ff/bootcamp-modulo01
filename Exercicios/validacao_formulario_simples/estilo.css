@@ -1,0 +1,136 @@
+/*PADRONIZAÇÃO*/
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f6f6
+}
+
+.max-width {
+    max-width: 1200px;
+}
+
+/*HEADER*/
+
+.menu {
+    background-color: white;
+    font-size: 15px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+.menu li a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.menu li a:hover {
+    color: gray;
+}
+
+/*SECTION*/
+
+.contato ul {
+    list-style: none;
+}
+
+.contato ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.imagemproximo {
+    width: 20px;
+}
+
+.background {
+    background-color: #0dafb4;
+    border-radius: 10px;
+}
+
+.background2 {
+    background-color: rgba(14, 125, 145, 0.356);
+    margin-top: 10px;
+    border-radius: 0;
+    padding-bottom: 15px;
+}
+
+
+.background3 {
+    background-color: rgba(14, 125, 145, 0.356);
+    margin-top: 10px;
+    border-radius: 0;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+section {
+    padding-top: 10px;
+}
+
+form {
+    font-size: 20px;
+}
+
+section label input {
+    display: block;
+    width: 500px;
+    margin: 0;
+    padding: 3px;
+}
+
+section label select {
+    display: block;
+    width: 500px;
+    margin: 0;
+    padding: 3px;
+}
+
+textarea {
+    width: 1100px;
+}
+
+.botao {
+    float: right;
+    width: 200px;
+    border-color: black;
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    padding: 2px 20px 2px 20px;
+}
+
+.botao:active {
+    color: black;
+}
+
+#listaerros ul {
+    list-style: none;
+}
+
+#listaerros ul li {
+    margin-top: 10px;
+    display: block;
+}
+
+.invalido {
+    border-color: red;
+}
+
+.valido {
+    border-color: rgb(10, 247, 10);
+}
+
+/*JAVASCRIPT*/

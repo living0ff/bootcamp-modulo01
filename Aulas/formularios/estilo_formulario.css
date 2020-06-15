@@ -1,0 +1,9 @@
+.tipoSexo{
+    display: inline-block;
+}
+
+input {
+    display: block;
+    font-size: 13px;
+    padding: 10px;
+}
