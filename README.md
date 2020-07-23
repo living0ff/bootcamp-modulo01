@@ -1,6 +1,6 @@
-# Módulo 1 do bootcamp de desenvolvimento web
+# Web Development
 
 <ul>
-<li>Aulas</li>
-<li>Exercícios</li>
+<li>Class</li>
+<li>Exercises</li>
 </ul>
